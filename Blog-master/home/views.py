@@ -20,7 +20,7 @@ def search(request):
     else:
         allPostsTitle = Post.objects.filter(title__icontains=query)
         allPostsContent =  Post.objects.filter(content__icontains=query)
-        allPosts = allPostsTitle.union(allPostsContent)
+        allPosts = allPostsTitle|allPostsContent
     context={'allPosts':allPosts,'query':query}
     return render(request, 'home/search.html',context)
 

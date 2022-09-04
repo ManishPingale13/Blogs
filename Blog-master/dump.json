@@ -1,0 +1,1018 @@
+[
+  {
+    "model": "home.contact",
+    "pk": 1,
+    "fields": {
+      "name": "Manish Balasaheb Pingale",
+      "email": "manishpingale2005@gmail.com",
+      "phoneNum": "+919975358767",
+      "content": "Fck u",
+      "timeStamp": "2022-08-19T07:05:37.293Z"
+    }
+  },
+  {
+    "model": "home.contact",
+    "pk": 2,
+    "fields": {
+      "name": "Manish Balasaheb Pingale",
+      "email": "manishpingale2005@gmail.com",
+      "phoneNum": "+919975358767",
+      "content": "Fck Off",
+      "timeStamp": "2022-08-19T07:05:55.956Z"
+    }
+  },
+  {
+    "model": "home.contact",
+    "pk": 3,
+    "fields": {
+      "name": "Manish  ",
+      "email": "manishpingale2005@gmail.com",
+      "phoneNum": "+919975358767",
+      "content": "jdfisgfushflshlfk silf",
+      "timeStamp": "2022-08-19T07:28:20.404Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "Title isko bolte",
+      "content": "<h1>This is title</h1>\r\n<p>This is test content so I am writing any shit that comes to mind so please don't mind whatever is in this shit content of the blog how has life been for you huh y<strong>o</strong>u look kinda depressed to me \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p>",
+      "slug": "Title-isko-bolte",
+      "author": "Manish",
+      "timeStamp": "2022-08-19T07:43:39Z"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "Google AI Blog",
+      "content": "<p style=\"text-align: center;\"><em><strong>AIIIIIIIIIIIIIIIIIIIII</strong></em></p>\r\n<p>One of the mst important aspects in machine learning is hyperparameter optimization, as finding the right hyperparameters for a machine learning task can make or break a model&rsquo;s performance. Internally, we regularly use Google Vizier as the default platform for hyperparameter optimization. Throughout its deployment over the last 5 years, Google Vizier has been used more than 10 million times, over a vast class of applications, including machine learning applications from vision, reinforcement learning, and language but also scientific applications such as protein discovery and hardware acceleration. As Google Vizier is able to keep track of use patterns in its database, such data, usually consisting of optimization trajectories termed studies, contain very valuable prior information on realistic hyperparameter tuning objectives, and are thus highly attractive for developing better algorithms. While there have been many previous methods for meta-learning over such data, such methods share one major common drawback: their meta-learning procedures depend heavily on numerical constraints such as the number of hyperparameters and their value ranges, and thus require all tasks to use the exact same total hyperparameter search space (i.e., tuning specifications). Additional textual information in the study, such as its description and parameter names, are also rarely used, yet can hold meaningful information about the type of task being optimized. Such a drawback becomes more exacerbated for larger datasets, which often contain significant amounts of such meaningful information. Today in &ldquo;Towards Learning Universal Hyperparameter Optimizers with Transformers&rdquo;, we are excited to introduce the OptFormer, one of the first Transformer-based frameworks for hyperparameter tuning, learned from large-scale optimization data using flexible text-based representations. While numerous works have previously demonstrated the Transformer&rsquo;s strong abilities across various domains, few have touched on its optimization-based capabilities, especially over text space. Our core findings demonstrate for the first time some intriguing algorithmic abilities of Transformers: 1) a single Transformer network is capable of imitating highly complex behaviors from multiple algorithms over long horizons; 2) the network is further capable of predicting objective values very accurately, in many cases surpassing Gaussian Processes, which are commonly used in algorithms such as Bayesian Optimization. Approach: Representing Studies as Tokens Rather than only using numerical data as common with previous methods, our novel approach instead utilizes concepts from natural language and represents all of the study data as a sequence of tokens, including textual information from initial metadata. In the animation below, this includes &ldquo;CIFAR10&rdquo;, &ldquo;learning rate&rdquo;, &ldquo;optimizer type&rdquo;, and &ldquo;Accuracy&rdquo;, which informs the OptFormer of an image classification task. The OptFormer then generates new hyperparameters to try on the task, predicts the task accuracy, and finally receives the true accuracy, which will be used to generate the next round&rsquo;s hyperparameters. Using the T5X codebase, the OptFormer is trained in a typical encoder-decoder fashion using standard generative pretraining over a wide range of hyperparameter optimization objectives, including real world data collected by Google Vizier, as well as public hyperparameter (HPO-B) and blackbox optimization benchmarks (BBOB).</p>\r\n<p>One of the most important aspects in machine learning is hyperparameter optimization, as finding the right hyperparameters for a machine learning task can make or break a model&rsquo;s performance. Internally, we regularly use Google Vizier as the default platform for hyperparameter optimization. Throughout its deployment over the last 5 years, Google Vizier has been used more than 10 million times, over a vast class of applications, including machine learning applications from vision, reinforcement learning, and language but also scientific applications such as protein discovery and hardware acceleration. As Google Vizier is able to keep track of use patterns in its database, such data, usually consisting of optimization trajectories termed studies, contain very valuable prior information on realistic hyperparameter tuning objectives, and are thus highly attractive for developing better algorithms. While there have been many previous methods for meta-learning over such data, such methods share one major common drawback: their meta-learning procedures depend heavily on numerical constraints such as the number of hyperparameters and their value ranges, and thus require all tasks to use the exact same total hyperparameter search space (i.e., tuning specifications). Additional textual information in the study, such as its description and parameter names, are also rarely used, yet can hold meaningful information about the type of task being optimized. Such a drawback becomes more exacerbated for larger datasets, which often contain significant amounts of such meaningful information. Today in &ldquo;Towards Learning Universal Hyperparameter Optimizers with Transformers&rdquo;, we are excited to introduce the OptFormer, one of the first Transformer-based frameworks for hyperparameter tuning, learned from large-scale optimization data using flexible text-based representations. While numerous works have previously demonstrated the Transformer&rsquo;s strong abilities across various domains, few have touched on its optimization-based capabilities, especially over text space. Our core findings demonstrate for the first time some intriguing algorithmic abilities of Transformers: 1) a single Transformer network is capable of imitating highly complex behaviors from multiple algorithms over long horizons; 2) the network is further capable of predicting objective values very accurately, in many cases surpassing Gaussian Processes, which are commonly used in algorithms such as Bayesian Optimization. Approach: Representing Studies as Tokens Rather than only using numerical data as common with previous methods, our novel approach instead utilizes concepts from natural language and represents all of the study data as a sequence of tokens, including textual information from initial metadata. In the animation below, this includes &ldquo;CIFAR10&rdquo;, &ldquo;learning rate&rdquo;, &ldquo;optimizer type&rdquo;, and &ldquo;Accuracy&rdquo;, which informs the OptFormer of an image classification task. The OptFormer then generates new hyperparameters to try on the task, predicts the task accuracy, and finally receives the true accuracy, which will be used to generate the next round&rsquo;s hyperparameters. Using the T5X codebase, the OptFormer is trained in a typical encoder-decoder fashion using standard generative pretraining over a wide range of hyperparameter optimization objectives, including real world data collected by Google Vizier, as well as public hyperparameter (HPO-B) and blackbox optimization benchmarks (BBOB).</p>",
+      "slug": "second-blog",
+      "author": "Manish",
+      "timeStamp": "2022-08-18T08:02:06Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "comment": "Hello There",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-19T13:54:22.679Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 2,
+    "fields": {
+      "user": 10,
+      "comment": "Fck you",
+      "post": 1,
+      "parent": 1,
+      "timeStamp": "2022-08-21T02:16:59Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "comment": "AI iS fAkE! ",
+      "post": 2,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:27:35.110Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "comment": "AI iS fAkE! ",
+      "post": 2,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:28:40.518Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "comment": "sfdf",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:29:04.353Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "comment": "sfdf",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:29:16.657Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "comment": "sfdf",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:29:38.328Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "comment": "fsnfsndf",
+      "post": 2,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:30:05.921Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "comment": "dfsfsdf",
+      "post": 2,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:30:47.333Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "comment": "AI will destroy us",
+      "post": 2,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:35:58.901Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "comment": "sfds",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:42:50.791Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "comment": "Yessss",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-21T02:46:41.495Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "comment": "Hey man don't abuse",
+      "post": 1,
+      "parent": 1,
+      "timeStamp": "2022-08-21T03:04:52Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "comment": "wtf",
+      "post": 1,
+      "parent": 5,
+      "timeStamp": "2022-08-21T03:45:02.724Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 15,
+    "fields": {
+      "user": 1,
+      "comment": "Noooo",
+      "post": 1,
+      "parent": 12,
+      "timeStamp": "2022-08-21T03:45:18.049Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "comment": "fsdfsf",
+      "post": 1,
+      "parent": 1,
+      "timeStamp": "2022-08-21T03:57:55.583Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "comment": "This is child reply",
+      "post": 1,
+      "parent": 5,
+      "timeStamp": "2022-08-21T03:59:53.261Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "comment": "fsdfsd",
+      "post": 1,
+      "parent": 6,
+      "timeStamp": "2022-08-21T04:03:00.395Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "comment": "fck off",
+      "post": 1,
+      "parent": 1,
+      "timeStamp": "2022-08-23T15:09:12.930Z"
+    }
+  },
+  {
+    "model": "blog.blogcomment",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "comment": "fsdfsdf",
+      "post": 1,
+      "parent": null,
+      "timeStamp": "2022-08-23T15:09:19.199Z"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-08-19T07:43:40.782Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-08-19T07:49:27.713Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-08-19T07:51:35.088Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-08-19T08:02:10.734Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-08-19T12:34:51.893Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "rondas",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-08-19T12:35:43.682Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "rondas",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-08-19T12:36:48.386Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "manishpingale2005@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-08-19T12:36:52.767Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "rondas",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-08-19T12:37:50.932Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "Manishsdf",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-08-19T12:55:13.927Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "8",
+      "object_repr": "Manish.PingaleDev",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-08-19T12:55:18.832Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "9",
+      "object_repr": "Manishdanjfu8",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-08-19T12:55:23.681Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "manishpingale2005@gmail.com",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-08-21T02:20:16.720Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Fck you ... by rondas",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User\", \"Comment\", \"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-08-21T03:47:53.923Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "Hey man do ... by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Parent\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-08-21T03:48:09.753Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Fck you ... by rondas",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-08-21T03:48:39.001Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Fck you ... by rondas",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-08-21T04:09:06.745Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-08-21T04:36:38.207Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-08-21T04:37:05.206Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Title isko bolte by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-08-21T04:37:27.925Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-08-21T04:37:53.986Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-08-21T04:38:06.706Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-08-21T04:38:16.274Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-08-21T04:38:27.302Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Google AI Blog by Manish",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add contact",
+      "content_type": 7,
+      "codename": "add_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change contact",
+      "content_type": 7,
+      "codename": "change_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete contact",
+      "content_type": 7,
+      "codename": "delete_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view contact",
+      "content_type": 7,
+      "codename": "view_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 8,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 8,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 8,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 8,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add blog comment",
+      "content_type": 9,
+      "codename": "add_blogcomment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change blog comment",
+      "content_type": 9,
+      "codename": "change_blogcomment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete blog comment",
+      "content_type": 9,
+      "codename": "delete_blogcomment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view blog comment",
+      "content_type": 9,
+      "codename": "view_blogcomment"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$dPHo3SqTb8hFqrQyVDj62M$FWb0WRAwet4rvQX3mxqypmDuWBJ/KO4KFMj0qUFaulI=",
+      "last_login": "2022-08-23T15:08:57.317Z",
+      "is_superuser": true,
+      "username": "Manish",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-08-19T06:49:58.608Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$NLTMJG8Fz7Y1JcmxWad9kn$ls9N2X2fAkXTzNwXGUB2azPFg8tUiaC+Fitg1WOyA3I=",
+      "last_login": "2022-08-19T12:59:48.657Z",
+      "is_superuser": false,
+      "username": "rondas",
+      "first_name": "Rohan",
+      "last_name": "Das",
+      "email": "rohan@das.dom",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-08-19T12:58:34.966Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "home", "model": "contact" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "blog", "model": "post" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "blog", "model": "blogcomment" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "01hluetb0ad3ixfudrfemvbta9sskp5g",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-LU4o6XMGa9fe4ACypTipEHcHSymgnZn3XiLgvuWwN17DksRFaHH6ZYTxwaWLdMdyqzLWsq0LyZ7IwzY51cTP69H-HWRsua_VgGjPFlhpQgVIjJ60UU4b98U-qtHOydCYIsaZDZA12gPxYAGME-8P4hQ3qA:1oPc5r:sjLXhrth1rYYe9zE_cOSAT_Uk6m4x4_nIBaXViKEAfI",
+      "expire_date": "2022-09-04T03:57:47.714Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ewqajkk1n6u259bqmnx1xbum3q843b7z",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-LU4o6XMGa9fe4ACypTipEHcHSymgnZn3XiLgvuWwN17DksRFaHH6ZYTxwaWLdMdyqzLWsq0LyZ7IwzY51cTP69H-HWRsua_VgGjPFlhpQgVIjJ60UU4b98U-qtHOydCYIsaZDZA12gPxYAGME-8P4hQ3qA:1oP1md:49X16hRWv9JwgvuYFd2b_DUpPZY5GgQsDEo35BGAz7U",
+      "expire_date": "2022-09-02T13:11:31.239Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jkfk3zjwdpwt0cfe8n0lhr911ki1u5wa",
+    "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyFdllLq0Xu_gSwLSNVAUtqT8d9tkx70NMm8N_MWjrY1u63Fxc1BXAWIy2_niZ-xHCA8qNyr5FrWZfbyUORJm5xqiK_b6f4dZGp5XysauqCtUYESesNpD7YWe80KB-60tgAQ1YiUEmHvMSIQjIY4BUsgPl_mSTgc:1oQVWU:dqiQh_kDlQWOByUYgCj2j2ualHxU61vH1SgW8b8vNk4",
+      "expire_date": "2022-09-06T15:08:58.858Z"
+    }
+  }
+]
